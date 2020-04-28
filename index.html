@@ -18,9 +18,9 @@
         </div>
         <nav id="nav-bar">
           <ul>
-            <li><a href="#" class="nav-link">Section 1</a></li>
-            <li><a href="#" class="nav-link">Section 2</a></li>
-            <li><a href="#" class="nav-link">Section 3</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#video-link" class="nav-link">Video</a></li>
+            <li><a href="#pricing-link" class="nav-link">Pricing</a></li>
           </ul>
         </nav>
       </header>
@@ -28,8 +28,10 @@
       <div class="container"></div>
 
       <section id="hero">
-        <h1 id="title">TITLE</h1>
-        <p id="description">description</p>
+        <h1 id="title">Premium Quality Hand-Crafted Trombones</h1>
+        <p id="description">
+          For the discerning professional seeking the finest instruments
+        </p>
         <form action="https://www.freecodecamp.com/email-submit" id="form">
           <label for="email" id="email-label"
             >Enter your email address to receive catalogue</label
@@ -41,19 +43,23 @@
             placeholder="Email address"
             required
           />
-          <input
-            type="submit"
-            id="submit"
-            value="Request Catalogue"
-            class="btn"
-          />
+          <input type="submit" id="submit" value="submit" class="btn" />
+          <a id="about"></a>
         </form>
       </section>
 
       <div class="container">
         <section id="features">
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="icon">
+              <img
+                src="https://static.thenounproject.com/png/17492-200.png"
+                alt=""
+                class="icon-image"
+                id="anvil"
+              />
+              <i class="fa fa-3x fa-fire"></i>
+            </div>
             <div class="desc">
               <h2>Premium Materials</h2>
               <p>
@@ -63,7 +69,15 @@
             </div>
           </div>
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="icon">
+              <img
+                src="https://image.flaticon.com/icons/svg/31/31520.svg"
+                alt=""
+                class="icon-image"
+                id="truck"
+              />
+              <i class="fa fa-3x fa-truck"></i>
+            </div>
             <div class="desc">
               <h2>Fast Shipping</h2>
               <p>
@@ -73,7 +87,15 @@
             </div>
           </div>
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
+            <div class="icon">
+              <img
+                src="https://lh3.googleusercontent.com/proxy/tFJSm3fpkBNZWSF31pcIybuKkeolyYONhVUN8Ud4Hg4jFMSm-iizUZO95HY_MkoM4eRS2imHHetjBtGhnqFD5QZAZWGjai7D8YuhCDG-VZd3gVrpKekJ0X8bkQ"
+                alt=""
+                class="icon-image"
+                id="microscope"
+              />
+              <i class="fa fa-3x fa-battery-full"></i>
+            </div>
             <div class="desc">
               <h2>Quality Assurance</h2>
               <p>
@@ -81,6 +103,7 @@
                 specialist. We guarantee that all delivered products meet our
                 100% Gold Standard.
               </p>
+              <a id="video-link"></a>
             </div>
           </div>
         </section>
@@ -94,6 +117,7 @@
           ></iframe>
         </section>
         <section id="pricing">
+          <a id="pricing-link"></a>
           <div class="product" id="tenor">
             <div class="level">Tenor Trombone</div>
             <h2>$2100</h2>
@@ -115,17 +139,17 @@
               <li>Optional engraving</li>
             </ol>
             <button class="btn">Select</button>
-            <div class="product" id="valve">
-              <div class="level">Valve Trombone</div>
-              <h2>$3500</h2>
-              <ol>
-                <li>Silver finish</li>
-                <li>Single thumb plug</li>
-                <li>13mm bore size</li>
-                <li>Lightweight metal</li>
-              </ol>
-              <button class="btn">Select</button>
-            </div>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Valve Trombone</div>
+            <h2>$3500</h2>
+            <ol>
+              <li>Silver finish</li>
+              <li>Single thumb plug</li>
+              <li>13mm bore size</li>
+              <li>Lightweight metal</li>
+            </ol>
+            <button class="btn">Select</button>
           </div>
         </section>
         <footer>
